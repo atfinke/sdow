@@ -147,3 +147,6 @@ def shortest_paths_route():
   })
 
   return jsonify(response)
+
+
+app.run(host='0.0.0.0', port=8080)
